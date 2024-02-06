@@ -1,0 +1,36 @@
+#resultContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 50vw;
+    padding: 20px;
+    border-left: 7px solid rgb(107, 33, 147);
+}
+
+#score{
+    color: rgb(118, 33, 147);
+}
+
+#results > div{
+    display: flex;
+    justify-content: space-between;
+    font-weight:500;
+}
+
+#buttons-box button:nth-child(1){
+    background-color: rgb(174, 183, 235);
+}
+
+#buttons-box button:nth-child(2){
+    background-color: rgb(181, 241, 141);
+    color:rgb(73, 105, 24);
+    border: 2px solid rgb(33, 50, 147);
+}
+
+#buttons-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
